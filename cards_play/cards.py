@@ -85,7 +85,6 @@ class CardsGame:
 
             inArr[i] = tuple(list1)
 
-        # print("replace --> ", deck)
         return inArr
 
 
@@ -108,13 +107,7 @@ class CardsGame:
 
             inArr[i] = tuple(list1)
 
-        # print("replace --> ", deck)
         return inArr
-
-    # deck = replaceFirst(deck)
-    # # print("replace --> ", deck)
-    # deck = sortSecond(deck)
-    # # print("sorted --> ", replaceLast(deck))
 
 
     def playGame(self,nTurn):
@@ -150,7 +143,7 @@ class CardsGame:
             Winner = 'Player2'
             print('Winner:', Winner + '  Score:'+ str(player2))
 
-    #    playGame(4)
+
 cg = CardsGame()
 cg.shuffleCards()
 
